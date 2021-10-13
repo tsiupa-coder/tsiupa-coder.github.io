@@ -1,0 +1,53 @@
+body { background: url(https://cdn.wallpapersafari.com/38/0/tNfnSd.png);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ede145;
+    font-family: sans-serif;
+  }
+
+#heros {
+  list-style: none;
+  padding: 5%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-element {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hero-element img {
+  width: 150px;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 3px;
+}
+
+#pag {
+  text-align: center;
+}
+#pag a{
+  font-size: 0.8em;
+  color: #668cff;
+  background-color: #ede145;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 40%
+}
+
+.red {
+    color: red;
+}
